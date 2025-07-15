@@ -3,10 +3,15 @@
  PROJECT TITLE
 Domain dive- Beyond surface level viewing 
 
+
+
  PURPOSE / JUSTIFICATION OF THE PROJECT
+
  Targets to increase the efficiency of the red team of Cycops by automating the gathering and structuring of the open-source intelligence (OSINT) that will be given a user-entered domain name or email address. The tool will cut the reconnaissance time by minimum of 50% and create a form of consistency in such a report as well as securely deliver findings in a password-protected PDF file, as it replaces the manual reconnaissance processes with an automated one. This is also in line with the mission of Cycops to carry out the high quality, efficient passive reconnaissance with the guarantee of the data security and adherence to privacy policies.
 
+
  PROJECT OBJECTIVES
+
 At the completion of the project (Week 7) the tool will:
 •	enable the user to enter a domain name or email address through a secure web interface that carries 100 percent uptime during the testing.
 •	Obtain OSINT information, containing at least five publicly available sources (e.g., WHOIS, DNS records, subdomains, data leaks) through 95 percent accuracy.
@@ -14,7 +19,8 @@ At the completion of the project (Week 7) the tool will:
 •	Generate a secure password-protected PDF report with AES-256 compliant options attached.
 •	Allow downloading reports securely, including authentication and the HTTPS protocol, and have zero occurrence of unauthorized access during testing.
 
- SCOPE
+ 
+SCOPE
 In Scope:
 
 Creation of a user input interface at the web-based interface (domain/email).
@@ -31,7 +37,8 @@ Beyond the Scope:
 •	Manual or human in the loop analysis of gathered data.
 •	Developing applications to use in mobile devices.
 
- DELIVERABLES
+ 
+DELIVERABLES
 
 •	Web Application: A mobile-friendly, tamper-evident web application with authentication of the user (OAuth or an analog), input fields where user can enter domain/email, and view the history and status of reports.
 •	Integration with OSINT: minimum five OSINT APIs/sources, directly usable via the backend and supporting error handling in case of API failure.
@@ -49,7 +56,9 @@ Beyond the Scope:
 •	QA Team: Offers functional, security and usability testing services; delivers on success criteria of deliverables.
 •	Security Team: Reports on the applied encryption and authentication mechanism to have compliance with the security standards.
 
- RISKS AND MITIGATION
+ 
+RISKS AND MITIGATION
+
 •	Risk: Public APIs of OSINT have low availability or reliability.
                 Mitigation: Choose a multi-backup APIs, and use error handling mechanism.
 •	Risk: Risk of data privacy on OSINT collected data.
